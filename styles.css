@@ -162,6 +162,10 @@ p {
 
 /* Footer Section */
 
+#footer {
+  background-color: #ff4c68;
+}
+
 .social-icon {
   margin: 20px 10px;
 }
