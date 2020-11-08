@@ -247,6 +247,10 @@ d .press-logo {
   background-color: #ff4c68;
 }
 
+#enlist {
+  background-color: #ff4c68;
+}
+
 /* Sign up page */
 
 body {
@@ -292,7 +296,7 @@ form > p:last-of-type {
   padding-top: 50px;
   display: table;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 form > p:last-of-type > a {
@@ -328,4 +332,8 @@ form > a:last-of-type {
   font-size: 10px;
   letter-spacing: 1px;
   font-style: italic;
+}
+
+p {
+  color: black;
 }
