@@ -180,3 +180,42 @@ p {
     transform: rotate(0);
   }
 }
+#features {
+  background-color: #ff4c68;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  text-shadow: 3px 2px #010708;
+  font-weight: bold;
+  font-family: 'Courier';
+}
+
+.par {
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Apple Chancery';
+}
+
+.btn {
+  background-color: #92999b;
+  padding-bottom: 10%;
+  font-size: 60%;
+}
+
+.alg {
+  text-align: center;
+  margin: 2%;
+}
+.flw {
+  color: rgb(0, 0, 0);
+  font-size: 80%;
+}
+
+.fab {
+  padding: 8px;
+}
