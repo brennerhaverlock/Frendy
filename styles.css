@@ -134,8 +134,7 @@ p {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
-
-.press-logo {
+d .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
@@ -180,42 +179,67 @@ p {
     transform: rotate(0);
   }
 }
+
+/* Cards */
 #features {
   background-color: #ff4c68;
 }
 
-.header {
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  text-transform: uppercase;
-  text-shadow: 3px 2px #010708;
-  font-weight: bold;
-  font-family: 'Courier';
+.card-counter {
+  box-shadow: 2px 2px 10px #dadada;
+  margin: 5px;
+  padding: 20px 10px;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 5px;
+  transition: 0.3s linear all;
 }
 
-.par {
-  text-align: center;
-  padding-left: 70px;
-  padding-right: 70px;
-  font-family: 'Apple Chancery';
+.card-counter:hover {
+  box-shadow: 4px 4px 20px #dadada;
+  transition: 0.3s linear all;
 }
 
-.btn {
-  background-color: #92999b;
-  padding-bottom: 10%;
-  font-size: 60%;
+.card-counter.primary {
+  background-color: #007bff;
+  color: #fff;
 }
 
-.alg {
-  text-align: center;
-  margin: 2%;
-}
-.flw {
-  color: rgb(0, 0, 0);
-  font-size: 80%;
+.card-counter.danger {
+  background-color: #ef5350;
+  color: #fff;
 }
 
-.fab {
-  padding: 8px;
+.card-counter.success {
+  background-color: #66bb6a;
+  color: #fff;
+}
+
+.card-counter.info {
+  background-color: #26c6da;
+  color: #fff;
+}
+
+.card-counter i {
+  font-size: 5em;
+  opacity: 0.2;
+}
+
+.card-counter .count-numbers {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  font-size: 32px;
+  display: block;
+}
+
+.card-counter .count-name {
+  position: absolute;
+  right: 35px;
+  top: 65px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
 }
